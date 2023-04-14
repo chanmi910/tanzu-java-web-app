@@ -44,7 +44,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: harbor-tap.demo.ds/apps/full/tanzu-java-web-app-gitops-2-default@sha256:a5a5f35e1afa484711babfdd7b1302cc17e86b7e750599eb570ccea9a0457f7e
+        image: harbor-tap.demo.ds/apps/full/tanzu-java-web-app-gitops-2-default@sha256:9e9d16b65e452c17f2f8ccbaf8582dec6845f99386ae4a183591085d4bcc38ff
         name: workload
         ports:
         - containerPort: 8080
